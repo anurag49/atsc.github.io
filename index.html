@@ -14,6 +14,11 @@
 div.first {
   background: rgba(0, 128, 0, 0.1);
 }
+
+/* Main content */
+.hello {
+  margin-top: 40px; /* Add a top margin to avoid content overlay */
+}
 </style>
 
 <!-- Sidebar on click -->
@@ -29,19 +34,19 @@ div.first {
 </nav>
 
 <!-- Navbar -->
-<div class="w3-top">
+<div class = "w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
-  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>ATSC</a>
-  <a href="#aboutus" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Us</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <!-- <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"  onclick="openNav()"><i class="fa fa-bars"></i></a>
+   --><a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>ATSC</a>
+  <a href="#aboutus" class="w3-bar-item w3-button  w3-hover-white">About Us</a>
+  <a href="#team" class="w3-bar-item w3-button  w3-hover-white">Team</a>
 <!--   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a> -->  
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="#contact" class="w3-bar-item w3-button  w3-hover-white" >Contact</a>
   <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a> -->
  </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+  <div id="navDemso" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium" style="position: fixed;">
     <a href="#aboutus" class="w3-bar-item w3-button">About Us</a>
 	<a href="#team" class="w3-bar-item w3-button">Team</a>
     <!-- <a href="#work" class="w3-bar-item w3-button">Work</a>
@@ -51,37 +56,18 @@ div.first {
   </div>
 </div>
 
+
+
 <!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
-  <img src="images/P33.png" alt="boat" style="width:100%;height:100%;">
-  <!-- <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
-  </div> -->
+<div class="w3-display-container w3-animate-opacity hello">
+  <img src="images/P33.png" alt="boat" style="width:100%;height: 100%;">
 </div>
 
-<!-- Modal -->
-<!-- <div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-top">
-    <header class="w3-container w3-teal w3-display-container"> 
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Oh snap! We just showed you a modal..</h4>
-      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-    </header>
-    <div class="w3-container">
-      <p>Cool huh? Ok, enough teasing around..</p>
-      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
-    </div>
-    <footer class="w3-container w3-teal">
-      <p>Modal footer</p>
-    </footer>
-  </div>
-</div> -->
+
 
 
 <!-- About Us Container -->
-<br>
-<br>
-<br>
+
 <div class = "first">
 <div class="w3-container w3-padding-64 w3-center" id="aboutus">
 
@@ -195,7 +181,7 @@ div.first {
  <!--  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Linkedin"><i class="fa fa-twitter"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a> -->
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/in/anurag49/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.linkedin.com/in/anurag49/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
 <!--   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
  -->
 <!--   <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
